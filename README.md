@@ -7,7 +7,7 @@ This is a [Next.js](https://nextjs.org) blog project bootstrapped with [`create-
 If you have access to the sub repository, clone the repository with submodules:
 
 ```bash
-git clone --recursive [repository-url]
+git clone --recursive git@github.com:AQiu-2003/aki-web.git
 # or if you've already cloned the repository
 git submodule update --init --recursive
 ```
