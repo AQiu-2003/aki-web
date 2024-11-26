@@ -1,7 +1,12 @@
+name: Cloudflare Pages Deployment
+run-name: Deploying to Cloudflare Pages @${{ github.actor }}
 on:
   push:
     branches:
       - main
+  repository_dispatch:
+    types:
+      - deploy
 
 jobs:
   deploy:
